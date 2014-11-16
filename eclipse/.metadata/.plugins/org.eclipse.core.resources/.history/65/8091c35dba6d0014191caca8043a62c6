@@ -1,7 +1,0 @@
-package com.juanwan11_magicnation.Items;
-
-import net.minecraft.item.Item;
-
-public class itemGemStoneBlood extends Item {
-
-}
