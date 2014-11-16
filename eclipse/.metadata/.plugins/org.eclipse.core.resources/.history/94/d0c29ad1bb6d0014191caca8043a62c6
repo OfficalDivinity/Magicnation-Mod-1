@@ -21,8 +21,8 @@ public class BaseClass {
 	// Creative Tabs
 	public static CreativeTabs magicnationTab = new CreativeTabs("juanwan11_magicnationTab") {
 		@Override
-		public Item getTabIconItem() {
-			return MAItems.itemGemStoneBlood;
+		public int getTabIconItem() {
+			return "assets/juanwan11_magicnation/textures/misc/Banner.jpg";
 		}
 	};
 	

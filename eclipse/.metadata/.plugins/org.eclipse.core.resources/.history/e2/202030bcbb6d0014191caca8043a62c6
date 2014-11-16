@@ -22,7 +22,7 @@ public class BaseClass {
 	public static CreativeTabs magicnationTab = new CreativeTabs("juanwan11_magicnationTab") {
 		@Override
 		public Item getTabIconItem() {
-			return MAItems.itemGemStoneBlood;
+			return Items.nether_star;
 		}
 	};
 	
