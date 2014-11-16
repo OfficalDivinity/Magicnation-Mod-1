@@ -47,6 +47,8 @@ public class BaseClass {
 		}
 		if (isBotaniaLoaded) {
 			CraftingRecipies.BotaniaCraftingRecipe();
+			MABotaniaItems.makeItems();
+		        MABotaniaItems.registerItems();
 		}
 		if (isThaumcraftLoaded) {
 		}
