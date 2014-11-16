@@ -52,7 +52,7 @@ public class BaseClass {
 		}
 		if (isThaumcraftLoaded) {
 			MAThaumBlocks.makeBlocks();
-		    MAThaumBlocks.registerBlocks();
+		        MAThaumBlocks.registerBlocks();
 		}
 	
 	}
