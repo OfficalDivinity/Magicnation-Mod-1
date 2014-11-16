@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="Magicnation"/>
 	<classpathentry kind="src" path="Thaumcraft"/>
+	<classpathentry kind="src" path="Botania"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/juanwan11/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1231/forgeSrc-1.7.10-10.13.2.1231.jar" sourcepath="C:/Users/juanwan11/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1231/forgeSrc-1.7.10-10.13.2.1231-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/juanwan11/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar" sourcepath="C:/Users/juanwan11/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/ea64c0bce5e9f465cd56566530133331568d2157/launchwrapper-1.11-sources.jar"/>
