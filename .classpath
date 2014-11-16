@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="Magicnation"/>
-	<classpathentry kind="src" path="Thaumcraft"/>
-	<classpathentry kind="src" path="Botania"/>
-	<classpathentry kind="src" path="BloodMagic"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/juanwan11/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1231/forgeSrc-1.7.10-10.13.2.1231.jar" sourcepath="C:/Users/juanwan11/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1231/forgeSrc-1.7.10-10.13.2.1231-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/juanwan11/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar" sourcepath="C:/Users/juanwan11/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/ea64c0bce5e9f465cd56566530133331568d2157/launchwrapper-1.11-sources.jar"/>
@@ -64,12 +61,5 @@
 	<classpathentry exported="true" kind="lib" path="C:/Users/juanwan11/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" sourcepath="C:/Users/juanwan11/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/7ca0efbeb87ca845b5d7a0ac9c21a4b7b95f7b28/guava-17.0-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/juanwan11/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" sourcepath="C:/Users/juanwan11/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/juanwan11/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1231/start"/>
-	<classpathentry kind="lib" path="C:/Users/juanwan11/git/Magicnation-Mod/Magicnation-Mod/lib/bloodutils/api"/>
-	<classpathentry kind="lib" path="C:/Users/juanwan11/git/Magicnation-Mod/Magicnation-Mod/lib/thaumcraft/api"/>
-	<classpathentry kind="lib" path="C:/Users/juanwan11/git/Magicnation-Mod/Magicnation-Mod/lib/vazkii/botania/api"/>
-	<classpathentry kind="lib" path="lib/bloodutils/api"/>
-	<classpathentry kind="lib" path="lib/thaumcraft/api"/>
-	<classpathentry kind="lib" path="lib/vazkii/botania"/>
-	<classpathentry kind="lib" path="lib/WayofTime/alchemicalWizardry"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
