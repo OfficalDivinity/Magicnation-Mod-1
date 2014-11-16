@@ -18,6 +18,10 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = ModInformation.modid, version = ModInformation.version, name = ModInformation.name)
 public class BaseClass {
+	
+	public static boolean isThaumcraftLoaded;
+        public static boolean isBotaniaLoaded;
+        
 	// Creative Tabs
 	public static CreativeTabs magicnationTab = new CreativeTabs("juanwan11_magicnationTab") {
 		@Override
@@ -34,6 +38,16 @@ public class BaseClass {
 		MAItems.registerItems();
 		CraftingRecipies.CraftingRecipe();
 	GameRegistry.registerWorldGenerator(new OreMagicnationGenerator(), 1);
+	
+		isThaumcraftLoaded = Loader.isModLoaded("Thaumcraft");
+		isBotaniaLoaded = Loader.isModLoaded("Botania");
+		
+		if (isThaumcraftLoaded && isBotaniaLoaded) {
+		}
+		if (isBotaniaLoaded) {
+		}
+		if (isThaumcraftLoaded) {
+		}
 	
 	}
 
