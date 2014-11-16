@@ -46,6 +46,7 @@ public class BaseClass {
 		if (isThaumcraftLoaded && isBotaniaLoaded) {
 		}
 		if (isBotaniaLoaded) {
+			CraftingRecipies.BotaniaCraftingRecipe();
 		}
 		if (isThaumcraftLoaded) {
 		}
