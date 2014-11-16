@@ -8,16 +8,21 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 public class DASItems {
-	public static Item miscNilfhemWart;
+	public static Item itemManaGemStoneBloodPickaxe;
 	
-	public static void init() 
+	public static void makeItems() 
 	{
 		
 		
-		helmZionArmor = new ItemZionArmor(DAItems.DISSOLUTED, DemonicAlchemy.proxy.addArmor("ZionArmor"), 0).setUnlocalizedName("helmZionArmor").setCreativeTab(CreativeTabs.tabAllSearch).setTextureName("chaos:helm3");
-		GameRegistry.registerItem(helmZionArmor, "helmZionArmor");
+		itemManaGemStoneBloodPickaxe = new itemManaGemStoneBloodPickaxe(ToolMaterial.EMERALD).setUnlocalizedName(ModInformation.modid + "_" + "itemGemStoneBloodPickaxe").setTextureName(ModInformation.modid + ":" + "itemGemStoneBloodPickaxe").setCreativeTab(BaseClass.magicnationTab).setMaxStackSize(1);
 		
 		
+	}
+	
+	public static void registerItems() {
+
+		GameRegistry.registerItem(itemManaGemStoneBloodPickaxe, "itemGemStoneBloodPickaxe");
+
 	}
 
 }
