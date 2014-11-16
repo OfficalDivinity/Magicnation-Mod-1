@@ -51,6 +51,8 @@ public class BaseClass {
 		    MABotaniaItems.registerItems();
 		}
 		if (isThaumcraftLoaded) {
+			MAThaumBlocks.makeBlocks();
+		        MAThaumBlocks.registerBlocks();
 		}
 	
 	}
