@@ -1,15 +1,15 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "juanwan11_magicnation",
+  "name": "Magicnation",
+  "description": "This is a mod about magic",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
+  "authorList": ["Juanwan11"],
+  "credits": "",
+  "logoFile": "assets/juanwan11_magicnation/textures/misc/Banner.jpg",
   "screenshots": [],
   "dependencies": []
 }

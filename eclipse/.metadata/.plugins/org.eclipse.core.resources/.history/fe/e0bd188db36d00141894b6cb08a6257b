@@ -1,0 +1,29 @@
+package com.magicnation.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+import com.magicnation.InformationAndShortCuts;
+import com.magicnation.MainClass;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class MAItems {
+
+	public static void mainRegistry(){
+		initializeBlock();
+		registerBlock();
+	}
+	
+	public static Block oreHeliotrope;
+	
+	public static void initializeBlock(){
+		 = new oreHeliotrope(Material.glass).setBlockName("oreHeliotrope").setCreativeTab(MainClass.magicnationTab).setBlockTextureName(InformationAndShortCuts.MODID + ":" + "oreHeliotrope")
+	}
+	
+	public static void registerBlock(){
+		GameRegistry.registerBlock(oreHeliotrope, oreHeliotrope.getUnlocalizedName());
+		
+	}
+	
+}

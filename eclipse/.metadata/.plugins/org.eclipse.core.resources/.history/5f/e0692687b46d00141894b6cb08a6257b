@@ -1,0 +1,16 @@
+package com.magicnation.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class oreBloodGem extends Block {
+
+	protected oreBloodGem(Material material) {
+		super(material.rock);
+		setHardness(7F);
+		setResistance(5F);
+		setHarvestLevel("pickaxe", 2);
+
+	}
+
+}

@@ -1,0 +1,71 @@
+package com.magicnation;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.world.World;
+
+import com.magicnation.blocks.TileEntityoreHeliotrope;
+import com.magicnation.blocks.juanwan11_magicnationBlocks;
+import com.magicnation.items.juanwan11_magicnationItems;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = Strings.MODID, name = Strings.Name, version = Strings.Version)
+
+public class MainClass {
+	
+	@SidedProxy(clientSide = Strings.clientSide, serverSide = Strings.serverSide)
+	public static serverProxy Sproxy;
+	public static clientProxy Cproxy;
+	
+	public static CreativeTabs magicnationTab = new CreativeTabs("MagicnationTab"){
+		public Item getTabIconItem() {
+			return juanwan11_magicnationItems.crystalHeliotrope;
+		}
+	
+	};
+		
+	
+	
+	/**
+	 *  Before
+	 * @param PreEvent
+	 */
+	@EventHandler
+	public static void PreLoad(FMLPreInitializationEvent PreEvent){	
+		juanwan11_magicnationItems.mainRegistry();
+		juanwan11_magicnationBlocks.mainRegistry();
+		Sproxy.registerRenderThings();
+
+	
+	
+	}
+	/**
+	 * During
+	 * @param event
+	 */
+	@EventHandler
+	public static void Load(FMLPreInitializationEvent event){
+		
+
+		GameRegistry.registerWorldGenerator(new magicnationGenerator(), 0);
+		
+	}
+	/**
+	 * After
+	 * @param PostEvent
+	 */
+	@EventHandler
+	public static void PostLoad(FMLPreInitializationEvent PostEvent){
+		
+	}
+	
+	
+	
+
+
+}
