@@ -10,6 +10,8 @@ import com.juanwan11_magicnation.Items.*;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class CraftingRecipies {
+	
+	public static RecipeManaInfusion bloodRecipe;
 
 	public static void CraftingRecipe() {
 		ItemStack diamondStack = new ItemStack(Items.diamond);
@@ -24,4 +26,7 @@ public class CraftingRecipies {
 		GameRegistry.addRecipe(new ItemStack(MAItems.itemGemStoneBloodPickaxe),"dsd"," g "," g ",'d',diamondStack,'s',gemBloodStack,'g',goldIngotStack);
 
 	};
+	public static void BotaniaCraftingRecipe() {
+		bloodRecipe = BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(MAItems.itemGemStoneBlood), shardGemBloodStack, 16000);
+	}
 }
