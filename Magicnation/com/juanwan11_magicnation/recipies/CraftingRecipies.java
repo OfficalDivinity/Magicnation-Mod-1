@@ -29,4 +29,8 @@ public class CraftingRecipies {
 	public static void BotaniaCraftingRecipe() {
 		bloodRecipe = BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(MAItems.itemGemStoneBlood), shardGemBloodStack, 16000);
 	}
+		public static void ThaumcraftCraftingRecipe() {
+		GameRegistry.addRecipe(new ItemStack(MAItems.itemGemStoneBlood), "xy",	"yx", 'x', shardGemBloodStack, 'y', ItemApi.getItem("itemResource", 16));
+		GameRegistry.addRecipe(new ItemStack(MAItems.itemGemStoneBlood), "xxx",	"xyx", "xxx", 'x', shardGemBloodStack, 'y', ItemApi.getItem("itemResource", 16));
+	}
 }
