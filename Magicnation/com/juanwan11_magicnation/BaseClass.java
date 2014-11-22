@@ -52,6 +52,7 @@ public class BaseClass {
 		}
 		if (isThaumcraftLoaded) {
 			MAThaumBlocks.makeBlocks();
+			CraftingRecipies.ThaumCraftingRecipe();
 		    MAThaumBlocks.registerBlocks();
 		}
 	
