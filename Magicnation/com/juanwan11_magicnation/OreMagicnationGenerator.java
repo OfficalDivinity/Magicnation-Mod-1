@@ -28,6 +28,11 @@ public class OreMagicnationGenerator implements IWorldGenerator{
      }
  
     private void GenerateNether(Random random, int x, int z, World world) {
+    	
+    	 int Xcoord = x + random.nextInt(16);
+             int Ycoord = 10 + random.nextInt(128);
+             int Zcoord = z + random.nextInt(16);
+             (new NetherGen(MABlocks.oreGemStoneBlood, 5)).generate(world, random, Xcoord, Ycoord, Zcoord);
     }
  
     private void GenerateEnd(Random random, int x, int z, World world) {
