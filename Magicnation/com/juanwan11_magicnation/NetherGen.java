@@ -27,18 +27,19 @@ public class WorldGenNetherMinable extends WorldGenerator
     public boolean generate(World par1World, Random par2Random, int par3, int par4, int par5)
     {
         float f = par2Random.nextFloat() * (float)Math.PI;
-        double d = (float)(par3 + 8) + (MathHelper.sin(f) * (float)numberOfBlocks) / 8F;
+        double d = (float)(par3 + 8) + (MathHelper.cos(f) * (float)numberOfBlocks) / 9F;
         double d1 = (float)(par3 + 8) - (MathHelper.sin(f) * (float)numberOfBlocks) / 8F;
-        double d2 = (float)(par5 + 8) + (MathHelper.cos(f) * (float)numberOfBlocks) / 8F;
+        double d2 = (float)(par5 + 8) + (MathHelper.sin(f) * (float)numberOfBlocks) / 9F;
         double d3 = (float)(par5 + 8) - (MathHelper.cos(f) * (float)numberOfBlocks) / 8F;
         double d4 = (par4 + par2Random.nextInt(3)) - 2;
         double d5 = (par4 + par2Random.nextInt(3)) - 2;
+        double s = (float)(par5/par3 + 8) - (float)Math.PI * (float)numberOfBlocks) / d1;
 
         for (int i = 0; i <= numberOfBlocks; i++)
         {
-            double d6 = d + ((d1 - d) * (double)i) / (double)numberOfBlocks;
+            double d6 = d + ((d1 - d) * (double)i) / (double)numberOfBlocks * (d3 - d2);
             double d7 = d4 + ((d5 - d4) * (double)i) / (double)numberOfBlocks;
-            double d8 = d2 + ((d3 - d2) * (double)i) / (double)numberOfBlocks;
+            double d8 = d2 + ((d3 - d2) * (double)i) / (double)numberOfBlocks * d4;
             double d9 = (par2Random.nextDouble() * (double)numberOfBlocks) / 16D;
             double d10 = (double)(MathHelper.sin(((float)i * (float)Math.PI) / (float)numberOfBlocks) + 1.0F) * d9 + 1.0D;
             double d11 = (double)(MathHelper.sin(((float)i * (float)Math.PI) / (float)numberOfBlocks) + 1.0F) * d9 + 1.0D;
@@ -62,7 +63,7 @@ public class WorldGenNetherMinable extends WorldGenerator
                 {
                     double d13 = (((double)i2 + 0.5D) - d7) / (d11 / 2D);
 
-                    if (d12 * d12 + d13 * d13 >= 1.0D)
+                    if (d12 * d12 + d13 * d13 + s >= 1.0D)
                     {
                         continue;
                     }
@@ -71,7 +72,7 @@ public class WorldGenNetherMinable extends WorldGenerator
                     {
                         double d14 = (((double)j2 + 0.5D) - d8) / (d10 / 2D);
 
-                        if (d12 * d12 + d13 * d13 + d14 * d14 < 1.0D && par1World.getBlockId(l1, i2, j2) == Block.netherrack.blockID)
+                        if (d12 * d12 + d13 * d13 + d14 * d14 + s < 1.0D && par1World.getBlockId(l1, i2, j2) == Block.netherrack.blockID)
                         {
                             par1World.setBlock(l1, i2, j2, minableBlockId, metadata, 2);
                         }
