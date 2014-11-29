@@ -1,0 +1,9 @@
+package com.juanwan11_magicnation;
+
+public class modLoader {
+
+	
+	static void isThaumcraftLoaded(){
+		
+	}
+}

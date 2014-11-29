@@ -6,7 +6,7 @@ saturation:0.0
 renderDistance:10
 guiScale:0
 particles:0
-bobView:true
+bobView:false
 anaglyph3d:false
 advancedOpengl:false
 maxFps:260
@@ -86,7 +86,7 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.2535211
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

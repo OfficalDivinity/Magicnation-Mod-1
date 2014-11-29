@@ -1,0 +1,13 @@
+package com.juanwan11_magicnation;
+
+import cpw.mods.fml.common.Loader;
+
+public class modLoader {
+
+	private static boolean isThaumcraftLoaded = Loader.isModLoaded("Thaumcraft");;
+    private static boolean isBotaniaLoaded = Loader.isModLoaded("Botania");
+	
+	protected static void isThaumcraftLoaded(){
+		
+	}
+}

@@ -1,0 +1,14 @@
+package com.juanwan11_magicnation.recipies.botania;
+
+import vazkii.botania.api.BotaniaAPI;
+
+import net.minecraft.item.ItemStack;
+
+public class CraftingRecipes {
+	public static RecipeManaInfusion bloodRecipe;
+
+	
+	public static void BotaniaCraftingRecipe() {
+		bloodRecipe = BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(MAItems.itemGemStoneBlood), shardGemBloodStack, 16000);
+	}
+}

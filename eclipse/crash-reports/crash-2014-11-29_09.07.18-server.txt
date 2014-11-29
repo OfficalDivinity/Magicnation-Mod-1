@@ -1,0 +1,124 @@
+---- Minecraft Crash Report ----
+// I just don't know what went wrong :(
+
+Time: 11/29/14 9:07 AM
+Description: Exception getting block type in world
+
+java.lang.ArithmeticException: / by zero
+	at com.juanwan11_magicnation.NetherGen.generate(NetherGen.java:37)
+	at com.juanwan11_magicnation.OreMagicnationGenerator.GenerateNether(OreMagicnationGenerator.java:35)
+	at com.juanwan11_magicnation.OreMagicnationGenerator.generate(OreMagicnationGenerator.java:21)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:106)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:314)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1157)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:208)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at net.minecraft.world.Teleporter.placeInExistingPortal(Teleporter.java:115)
+	at net.minecraft.world.Teleporter.placeInPortal(Teleporter.java:42)
+	at net.minecraft.server.management.ServerConfigurationManager.transferEntityToWorld(ServerConfigurationManager.java:625)
+	at net.minecraft.server.management.ServerConfigurationManager.transferPlayerToDimension(ServerConfigurationManager.java:529)
+	at net.minecraft.server.management.ServerConfigurationManager.transferPlayerToDimension(ServerConfigurationManager.java:517)
+	at net.minecraft.entity.player.EntityPlayerMP.travelToDimension(EntityPlayerMP.java:573)
+	at net.minecraft.entity.Entity.onEntityUpdate(Entity.java:434)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:236)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:386)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1764)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:327)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:330)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayer(NetHandlerPlayServer.java:329)
+	at net.minecraft.network.play.client.C03PacketPlayer.processPacket(C03PacketPlayer.java:37)
+	at net.minecraft.network.play.client.C03PacketPlayer$C04PacketPlayerPosition.processPacket(C03PacketPlayer.java:163)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:241)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:726)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.juanwan11_magicnation.NetherGen.generate(NetherGen.java:37)
+	at com.juanwan11_magicnation.OreMagicnationGenerator.GenerateNether(OreMagicnationGenerator.java:35)
+	at com.juanwan11_magicnation.OreMagicnationGenerator.generate(OreMagicnationGenerator.java:21)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:106)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:314)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1157)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:208)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+
+-- Requested block coordinates --
+Details:
+	Found chunk: true
+	Location: World: (16,127,16), Chunk: (at 0,7,0 in 1,1; contains blocks 16,0,16 to 31,255,31), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+Stacktrace:
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at net.minecraft.world.Teleporter.placeInExistingPortal(Teleporter.java:115)
+	at net.minecraft.world.Teleporter.placeInPortal(Teleporter.java:42)
+	at net.minecraft.server.management.ServerConfigurationManager.transferEntityToWorld(ServerConfigurationManager.java:625)
+	at net.minecraft.server.management.ServerConfigurationManager.transferPlayerToDimension(ServerConfigurationManager.java:529)
+	at net.minecraft.server.management.ServerConfigurationManager.transferPlayerToDimension(ServerConfigurationManager.java:517)
+	at net.minecraft.entity.player.EntityPlayerMP.travelToDimension(EntityPlayerMP.java:573)
+	at net.minecraft.entity.Entity.onEntityUpdate(Entity.java:434)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:236)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:386)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1764)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:327)
+
+-- Player being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 4087
+	Entity Name: Player21
+	Entity's Exact location: 0.00, 72.01, 31.00
+	Entity's Block location: World: (0,72,31), Chunk: (at 0,4,15 in 0,1; contains blocks 0,0,16 to 15,255,31), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:330)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayer(NetHandlerPlayServer.java:329)
+	at net.minecraft.network.play.client.C03PacketPlayer.processPacket(C03PacketPlayer.java:37)
+	at net.minecraft.network.play.client.C03PacketPlayer$C04PacketPlayerPosition.processPacket(C03PacketPlayer.java:163)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:241)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@3006b2b0
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:726)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8 (amd64) version 6.2
+	Java Version: 1.8.0_25, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 832730192 bytes (794 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 13, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP v9.05 FML v7.10.85.1231 Minecraft Forge 10.13.2.1231 4 mods loaded, 4 mods active
+	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	FML{7.10.85.1231} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.2.1231.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	Forge{10.13.2.1231} [Minecraft Forge] (forgeSrc-1.7.10-10.13.2.1231.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	juanwan11_magicnation{1.0} [Magicnation] (bin) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player21'/4087, l='New World', x=0.00, y=72.01, z=31.00]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

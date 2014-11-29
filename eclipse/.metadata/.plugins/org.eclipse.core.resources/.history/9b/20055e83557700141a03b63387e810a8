@@ -1,0 +1,13 @@
+package com.juanwan11_magicnation.recipies.thaumcraft;
+
+import com.juanwan11_magicnation.recipies.CraftingRecipies;
+
+import net.minecraft.item.ItemStack;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class CraftingRecipes {
+		public static void ThaumcraftCraftingRecipe() {
+		GameRegistry.addRecipe(new ItemStack(MAItems.itemGemStoneBlood), "xy",	"yx", 'x', shardGemBloodStack, 'y', ItemApi.getItem("itemResource", 16));
+		GameRegistry.addRecipe(new ItemStack(MAItems.itemGemStoneBlood), "xxx",	"xyx", "xxx", 'x', shardGemBloodStack, 'y', ItemApi.getItem("itemResource", 16));
+	}
+}

@@ -1,0 +1,21 @@
+package com.juanwan11_magicnation.recipies;
+
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+
+import com.juanwan11_magicnation.Items.*;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class CraftingRecipies implements CraftingRecipesStacks {
+	
+
+	public static void CraftingRecipe(){
+		
+		GameRegistry.addRecipe(new ItemStack(MAItems.itemGemStoneBlood), "xyx",	"yzy", "xyx", 'x', shardGemBloodStack, 'y', goldNuggetStack,'z', diamondStack);
+		GameRegistry.addRecipe(new ItemStack(MAItems.itemGemStoneBloodPickaxe),"dsd"," g "," g ",'d',diamondStack,'s',gemBloodStack,'g',goldIngotStack);
+
+	};
+}

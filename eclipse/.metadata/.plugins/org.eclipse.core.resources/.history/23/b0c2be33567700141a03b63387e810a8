@@ -1,0 +1,22 @@
+package com.juanwan11_magicnation.Items.botania;
+
+import vazkii.botania.api.BotaniaAPI;
+import vazkii.botania.api.lexicon.LexiconCategory;
+import vazkii.botania.api.lexicon.LexiconEntry;
+import vazkii.botania.api.lexicon.LexiconPage;
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+public class MABotaniaItems {
+	
+	public static Item miscNilfhemWart;
+	
+		public static void makeItems() {
+
+		
+		
+		}
+		
+		public static void registerItems() {
+		}
+}

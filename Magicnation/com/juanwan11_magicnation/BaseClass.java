@@ -1,8 +1,11 @@
 package com.juanwan11_magicnation;
 
-import com.juanwan11_magicnation.Items.MAItems;
+import com.juanwan11_magicnation.Items.*;
+import com.juanwan11_magicnation.Items.botania.*;
+import com.juanwan11_magicnation.Items.thaumcraft.*;
 import com.juanwan11_magicnation.blocks.*;
-import com.juanwan11_magicnation.recipies.CraftingRecipies;
+import com.juanwan11_magicnation.blocks.thaumcraft.MAThaumBlocks;
+import com.juanwan11_magicnation.recipies.*;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -20,8 +23,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @Mod(modid = ModInformation.modid, version = ModInformation.version, name = ModInformation.name)
 public class BaseClass {
 	
-	public static boolean isThaumcraftLoaded;
-        public static boolean isBotaniaLoaded;
+	
         
 	// Creative Tabs
 	public static CreativeTabs magicnationTab = new CreativeTabs("juanwan11_magicnationTab") {
@@ -38,24 +40,11 @@ public class BaseClass {
 		MAItems.makeItems();
 		MAItems.registerItems();
 		CraftingRecipies.CraftingRecipe();
-	GameRegistry.registerWorldGenerator(new OreMagicnationGenerator(), 1);
-	
-		isThaumcraftLoaded = Loader.isModLoaded("Thaumcraft");
-		isBotaniaLoaded = Loader.isModLoaded("Botania");
+		GameRegistry.registerWorldGenerator(new OreMagicnationGenerator(), 1);
+
+		//Mods Loaded
+		modLoader.isModsLoaded();
 		
-		if (isThaumcraftLoaded && isBotaniaLoaded) {
-		}
-		if (isBotaniaLoaded) {
-			CraftingRecipies.BotaniaCraftingRecipe();
-			MABotaniaItems.makeItems();
-		    MABotaniaItems.registerItems();
-		}
-		if (isThaumcraftLoaded) {
-			MAThaumBlocks.makeBlocks();
-			CraftingRecipies.ThaumCraftingRecipe();
-		    MAThaumBlocks.registerBlocks();
-		}
-	
 	}
 
 	@EventHandler

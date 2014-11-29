@@ -1,0 +1,29 @@
+package com.juanwan11_magicnation;
+
+import com.juanwan11_magicnation.Items.botania.MABotaniaItems;
+import com.juanwan11_magicnation.blocks.thaumcraft.MAThaumBlocks;
+import com.juanwan11_magicnation.recipies.CraftingRecipies;
+
+import cpw.mods.fml.common.Loader;
+
+public class modLoader {
+
+	private static boolean isThaumcraftLoaded = Loader.isModLoaded("Thaumcraft");
+    private static boolean isBotaniaLoaded = Loader.isModLoaded("Botania");
+	
+	protected static void thaumcraftisLoaded(){
+		
+	}
+}
+if (isThaumcraftLoaded && isBotaniaLoaded) {
+}
+if (isBotaniaLoaded) {
+	CraftingRecipies.BotaniaCraftingRecipe();
+	MABotaniaItems.makeItems();
+    MABotaniaItems.registerItems();
+}
+if (isThaumcraftLoaded) {
+	MAThaumBlocks.makeBlocks();
+	CraftingRecipies.ThaumCraftingRecipe();
+    MAThaumBlocks.registerBlocks();
+}

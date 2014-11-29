@@ -10,13 +10,17 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class MABlocks {
 	
 	public static Block oreGemStoneBlood;
-	
+	public static Block oreNetherGemStoneBlood;
+
 	public static void makeBlocks() {
 		oreGemStoneBlood = new oreGemStoneBlood().setCreativeTab(BaseClass.magicnationTab).setBlockName(ModInformation.modid + "_" + "oreGemStoneBlood").setBlockTextureName(ModInformation.modid + ":" + "oreGemStoneBlood").setHardness(2.5f).setResistance(10f);
+		oreNetherGemStoneBlood = new oreNetherGemStoneBlood().setCreativeTab(BaseClass.magicnationTab).setBlockName(ModInformation.modid + "_" + "oreNetherGemStoneBlood").setBlockTextureName(ModInformation.modid + ":" + "oreNetherGemStoneBlood").setHardness(2.5f).setResistance(10f);
+
 	};
 
 	public static void registerBlocks() {
 		GameRegistry.registerBlock(oreGemStoneBlood, "oreGemStoneBlood");
+		GameRegistry.registerBlock(oreNetherGemStoneBlood, "oreNetherGemStoneBlood");
 
 	};
 	
