@@ -4,6 +4,8 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
 public class itemGemStoneBloodSword extends ItemSword{
@@ -44,8 +46,23 @@ public class itemGemStoneBloodSword extends ItemSword{
 		
 	 public boolean hitEntity(ItemStack itemStack, EntityLivingBase entity, EntityLivingBase entity1)
 	    {
-	        itemStack.damageItem(1, entity1);
-	        return true;
+			type=checkType();
+			if (type==1){
+		        itemStack.damageItem(1, entity1);
+				entity.addPotionEffect(new PotionEffect(Potion.poison.id, 25,3));			
+			}else if(type==2){
+				 itemStack.damageItem(1, entity1);
+					entity.addPotionEffect(new PotionEffect(Potion.wither.id, 25,3));	
+			}else if(type==3){
+				 itemStack.damageItem(1, entity1);
+					entity.addPotionEffect(new PotionEffect(Potion.hunger.id, 25,3));	
+			}else if(type==4){
+				 itemStack.damageItem(1, entity1);
+					entity.addPotionEffect(new PotionEffect(Potion.poison.id, 10,1));	
+					entity1.addPotionEffect(new PotionEffect(Potion.regeneration.id, 10,1));	
+			}
+	       
+				return true;
 	    }
 
 }

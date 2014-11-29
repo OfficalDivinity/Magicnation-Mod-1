@@ -18,4 +18,7 @@
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.thaumcraft.CraftingRecipes"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.thaumcraft.ThaumcraftCraftingRecipes"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.Potion"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.PotionEffect"/>
 </qualifiedTypeNameHistroy>

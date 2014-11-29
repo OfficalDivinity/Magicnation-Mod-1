@@ -47,8 +47,7 @@ public class itemGemStoneBloodPickaxe extends ItemPickaxe {
 					player.inventory.consumeInventoryItem(MAItems.itemGemStoneBlood);
 					Minecraft.getMinecraft().thePlayer.sendChatMessage("You Have Filled The Pickaxe In Magical Essence And It Has Exploded");
 				}
-			
-		return itemStack;
+			return itemStack;
 	}
 	
 	public boolean onBlockDestroyed(ItemStack itemStack, World world, Block block, int x, int y, int z, EntityLivingBase entityLiving)

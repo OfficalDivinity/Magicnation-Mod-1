@@ -1,64 +1,241 @@
-[09:49:45] [main/INFO]: Setting user: juanwan11
-[09:49:47] [Client thread/INFO]: LWJGL Version: 2.9.1
-[09:49:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[09:49:54] [Sound Library Loader/INFO]: Sound engine started
-[09:49:57] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[09:49:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[09:49:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[09:49:58] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[09:49:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[09:49:59] [Sound Library Loader/INFO]: Sound engine started
-[09:50:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[09:50:10] [Server thread/INFO]: Generating keypair
-[09:50:10] [Server thread/INFO]: Converting map!
-[09:50:10] [Server thread/INFO]: Scanning folders...
-[09:50:10] [Server thread/INFO]: Total conversion count is 0
-[09:50:11] [Server thread/INFO]: Preparing start region for level 0
-[09:50:12] [Server thread/INFO]: Preparing spawn area: 5%
-[09:50:13] [Server thread/INFO]: Preparing spawn area: 13%
-[09:50:14] [Server thread/INFO]: Preparing spawn area: 21%
-[09:50:15] [Server thread/INFO]: Preparing spawn area: 30%
-[09:50:16] [Server thread/INFO]: Preparing spawn area: 41%
-[09:50:17] [Server thread/INFO]: Preparing spawn area: 51%
-[09:50:18] [Server thread/INFO]: Preparing spawn area: 60%
-[09:50:19] [Server thread/INFO]: Preparing spawn area: 69%
-[09:50:20] [Server thread/INFO]: Preparing spawn area: 80%
-[09:50:21] [Server thread/INFO]: Preparing spawn area: 93%
-[09:50:22] [Server thread/INFO]: juanwan11[local:E:8b0583c2] logged in with entity id 212 at (-28.5, 68.0, 248.5)
-[09:50:22] [Server thread/INFO]: juanwan11 joined the game
-[09:50:25] [Server thread/INFO]: juanwan11 has just earned the achievement [Taking Inventory]
-[09:50:26] [Client thread/INFO]: [CHAT] juanwan11 has just earned the achievement [Taking Inventory]
-[09:50:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3378ms behind, skipping 67 tick(s)
-[09:50:27] [Client thread/INFO]: Warning: Clientside chunk ticking took 111 ms
-[09:50:30] [Client thread/INFO]: Warning: Clientside chunk ticking took 108 ms
-[09:50:31] [Client thread/INFO]: Warning: Clientside chunk ticking took 227 ms
-[09:50:32] [Client thread/INFO]: Warning: Clientside chunk ticking took 106 ms
-[09:50:32] [Client thread/INFO]: Warning: Clientside chunk ticking took 111 ms
-[09:50:32] [Client thread/INFO]: Warning: Clientside chunk ticking took 101 ms
-[09:50:32] [Client thread/INFO]: Warning: Clientside chunk ticking took 108 ms
-[09:50:32] [Client thread/INFO]: Warning: Clientside chunk ticking took 214 ms
-[09:51:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7061ms behind, skipping 141 tick(s)
-[09:51:04] [Server thread/INFO]: Saving and pausing game...
-[09:51:04] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Overworld
-[09:51:04] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Nether
-[09:51:05] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/The End
-[09:51:09] [Server thread/INFO]: Saving and pausing game...
-[09:51:09] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Overworld
-[09:51:09] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Nether
-[09:51:09] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/The End
-[09:51:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4839ms behind, skipping 96 tick(s)
-[09:51:22] [Server thread/INFO]: Saving and pausing game...
-[09:51:22] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Overworld
-[09:51:22] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Nether
-[09:51:22] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/The End
-[09:51:23] [Server thread/INFO]: Saving and pausing game...
-[09:51:23] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Overworld
-[09:51:23] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Nether
-[09:51:23] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/The End
-[09:51:23] [Server thread/INFO]: Stopping server
-[09:51:23] [Server thread/INFO]: Saving players
-[09:51:23] [Server thread/INFO]: Saving worlds
-[09:51:23] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Overworld
-[09:51:23] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Nether
-[09:51:23] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/The End
-[09:51:26] [Client thread/INFO]: Stopping!
+[20:55:31] [main/INFO]: Setting user: juanwan11
+[20:55:34] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:55:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[20:55:50] [Sound Library Loader/INFO]: Sound engine started
+[20:55:56] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:582) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:931) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_25]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
+	at GradleStart.main(GradleStart.java:45) [start/:?]
+[20:55:57] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[20:55:57] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:583) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:931) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_25]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
+	at GradleStart.main(GradleStart.java:45) [start/:?]
+[20:55:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:55:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[20:55:57] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:643) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:586) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:931) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_25]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
+	at GradleStart.main(GradleStart.java:45) [start/:?]
+[20:55:58] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[20:55:58] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:643) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:586) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:931) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_25]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
+	at GradleStart.main(GradleStart.java:45) [start/:?]
+[20:55:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:55:59] [Sound Library Loader/INFO]: Sound engine started
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:21] [Client thread/ERROR]: @ Post render
+[20:56:21] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:22] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:56:22] [Client thread/ERROR]: @ Post render
+[20:56:22] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[20:56:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:56:30] [Server thread/INFO]: Generating keypair
+[20:56:31] [Server thread/INFO]: Preparing start region for level 0
+[20:56:32] [Server thread/INFO]: Preparing spawn area: 4%
+[20:56:33] [Server thread/INFO]: Preparing spawn area: 69%
+[20:56:35] [Server thread/INFO]: juanwan11[local:E:727ff3c4] logged in with entity id 315 at (10.369773121631585, 95.04216228260769, 40.83441100321978)
+[20:56:35] [Server thread/INFO]: juanwan11 joined the game
+[20:56:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2775ms behind, skipping 55 tick(s)
+[20:56:37] [Server thread/INFO]: Saving and pausing game...
+[20:56:37] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Overworld
+[20:56:37] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Nether
+[20:56:37] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/The End
+[20:56:50] [Server thread/INFO]: Saving and pausing game...
+[20:56:50] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Overworld
+[20:56:50] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Nether
+[20:56:50] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/The End
+[20:56:51] [Server thread/INFO]: Stopping server
+[20:56:51] [Server thread/INFO]: Saving players
+[20:56:51] [Server thread/INFO]: Saving worlds
+[20:56:51] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Overworld
+[20:56:51] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/Nether
+[20:56:51] [Server thread/INFO]: Saving chunks for level 'Copy of Copy of New World'/The End
