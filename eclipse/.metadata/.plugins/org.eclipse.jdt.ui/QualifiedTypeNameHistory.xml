@@ -6,8 +6,16 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="com.magicnation.blocks.MABlocks"/>
-<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.Items.MAItems"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Loader"/>
+<fullyQualifiedTypeName name="com.juanwan11_magicnation.Items.botania.MABotaniaItems"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.CraftingRecipies"/>
+<fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.CraftingRecipesStacks"/>
+<fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.botania.CraftingRecipes"/>
+<fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.thaumcraft.CraftingRecipes"/>
+<fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.thaumcraft.ThaumcraftCraftingRecipes"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 </qualifiedTypeNameHistroy>
