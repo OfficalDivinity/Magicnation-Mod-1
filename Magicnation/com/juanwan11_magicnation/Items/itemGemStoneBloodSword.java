@@ -1,38 +1,48 @@
 package com.juanwan11_magicnation.Items;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
 public class itemGemStoneBloodSword extends ItemSword{
 //vars
-	private int type=0;
-	
+
 	public itemGemStoneBloodSword(ToolMaterial toolMaterial) {
 		super(toolMaterial.EMERALD);
 		setMaxDamage(1561);
 	}
 	
-	private int checkType(){
+	public void onCreated(ItemStack itemStack, World world, EntityPlayer player) {
+	    itemStack.stackTagCompound = new NBTTagCompound();
+	    itemStack.stackTagCompound.setString("type", "Normal");
+	}
+	
+	private String checkType(){
+		ItemStack itemStack = new ItemStack(MAItems.itemGemStoneBloodSword);
+		
+		String type =itemStack.stackTagCompound.getString("type");
 		switch(type){
-		case 0:
-			type++;
+		case "Poison":
+			itemStack.stackTagCompound.setString("type", "Wither");
+			Minecraft.getMinecraft().thePlayer.sendChatMessage("The sword has gained poisones powers ");
 			break;
-		case 1:
-			type++;
+		case "Wither":
+			itemStack.stackTagCompound.setString("type", "Hunger");
 			break;
-		case 2:
-			type++;
+		case "Hunger":
+			itemStack.stackTagCompound.setString("type", "LifeSteal");
 			break;
-		case 3:
-			type++;
+		case "LifeSteal":
+			itemStack.stackTagCompound.setString("type", "Normal");
 			break;
-		case 4:
-			type=0;
+		case "Normal":
+			itemStack.stackTagCompound.setString("type", "Poison");
 			break;
 		}
 		return type;
@@ -46,20 +56,23 @@ public class itemGemStoneBloodSword extends ItemSword{
 		
 	 public boolean hitEntity(ItemStack itemStack, EntityLivingBase entity, EntityLivingBase entity1)
 	    {
-			type=checkType();
-			if (type==1){
+			String type=checkType();
+			if(type.equals("Normal")){
+				itemStack.damageItem(1, entity1);
+			}
+			else if (type.equals("Poison")){
 		        itemStack.damageItem(1, entity1);
-				entity.addPotionEffect(new PotionEffect(Potion.poison.id, 25,3));			
-			}else if(type==2){
+				entity.addPotionEffect(new PotionEffect(Potion.poison.id, 200,3));			
+			}else if(type.equals("Wither")){
 				 itemStack.damageItem(1, entity1);
-					entity.addPotionEffect(new PotionEffect(Potion.wither.id, 25,3));	
-			}else if(type==3){
+					entity.addPotionEffect(new PotionEffect(Potion.wither.id, 200,3));	
+			}else if(type.equals("Hunger")){
 				 itemStack.damageItem(1, entity1);
-					entity.addPotionEffect(new PotionEffect(Potion.hunger.id, 25,3));	
-			}else if(type==4){
+					entity.addPotionEffect(new PotionEffect(Potion.hunger.id, 200,3));	
+			}else if(type.equals("LifeSteal")){
 				 itemStack.damageItem(1, entity1);
-					entity.addPotionEffect(new PotionEffect(Potion.poison.id, 10,1));	
-					entity1.addPotionEffect(new PotionEffect(Potion.regeneration.id, 10,1));	
+					entity.addPotionEffect(new PotionEffect(Potion.poison.id, 140,1));	
+					entity1.addPotionEffect(new PotionEffect(Potion.regeneration.id, 140,1));	
 			}
 	       
 				return true;
