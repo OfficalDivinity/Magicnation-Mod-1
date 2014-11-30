@@ -22,16 +22,29 @@ public class itemGemStoneBloodSword extends ItemSword{
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player) {
 		
 		if(itemStack.stackTagCompound == null){
-		itemStack.stackTagCompound = new NBTTagCompound();
-		itemStack.stackTagCompound.setString("Type", "Normal");
+			itemStack.stackTagCompound = new NBTTagCompound();
+			itemStack.stackTagCompound.setString("Type", "Normal");
 		}
+		changeType();
 		if(!player.worldObj.isRemote){
-		Minecraft.getMinecraft().thePlayer.sendChatMessage(itemStack.stackTagCompound.getString("Type"));
+			Minecraft.getMinecraft().thePlayer.sendChatMessage(itemStack.stackTagCompound.getString("Type"));
 		}
 		
 		return itemStack;		
 		}		
 		
+	private void changeType(){
+		ItemStack itemStack = new ItemStack(MAItems.itemGemStoneBloodSword);
+		if(itemStack.stackTagCompound != null){
+			
+		}else if(itemStack.stackTagCompound.getString("Type").equals("Normal")){
+			itemStack.stackTagCompound.setString("Type", "Poison");
+			Minecraft.getMinecraft().thePlayer.sendChatMessage(itemStack.stackTagCompound.getString("Type"));
+
+		}
+	
+	}
+	
 	/** public boolean hitEntity(ItemStack itemStack, EntityLivingBase entity, EntityLivingBase entity1)
 	    {
 			String type=checkType();
