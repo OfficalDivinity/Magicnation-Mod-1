@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 
 public class itemGemStoneBloodSword extends ItemSword{
 //vars
-	
+
 	public itemGemStoneBloodSword(ToolMaterial toolMaterial) {
 		super(toolMaterial.EMERALD);
 		setMaxDamage(1561);
@@ -20,9 +20,14 @@ public class itemGemStoneBloodSword extends ItemSword{
 	
 	@Override
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player) {
-		itemStack.stackTagCompound= new NBTTagCompound();
-		itemStack.stackTagCompound.setString("Type", "normal");
+		
+		if(itemStack.stackTagCompound == null){
+		itemStack.stackTagCompound = new NBTTagCompound();
+		itemStack.stackTagCompound.setString("Type", "Normal");
+		}
+		if(!player.worldObj.isRemote){
 		Minecraft.getMinecraft().thePlayer.sendChatMessage(itemStack.stackTagCompound.getString("Type"));
+		}
 		
 		return itemStack;		
 		}		
