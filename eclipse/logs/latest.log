@@ -1,8 +1,8 @@
-[16:47:19] [main/INFO]: Setting user: juanwan11
-[16:47:21] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:47:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[16:47:28] [Sound Library Loader/INFO]: Sound engine started
-[16:47:31] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+[17:05:52] [main/INFO]: Setting user: juanwan11
+[17:05:54] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:06:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[17:06:02] [Sound Library Loader/INFO]: Sound engine started
+[17:06:04] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -22,8 +22,8 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGe
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[16:47:31] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[16:47:31] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+[17:06:05] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[17:06:05] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -43,9 +43,9 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStone
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[16:47:31] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:47:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[16:47:32] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+[17:06:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:06:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[17:06:05] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -68,8 +68,8 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGe
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[16:47:32] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[16:47:32] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+[17:06:06] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[17:06:06] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -92,15 +92,20 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStone
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[16:47:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:47:33] [Sound Library Loader/INFO]: Sound engine started
-[16:48:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:48:02] [Server thread/INFO]: Generating keypair
-[16:48:03] [Server thread/INFO]: Preparing start region for level 0
-[16:48:04] [Server thread/INFO]: Preparing spawn area: 80%
-[16:48:05] [Server thread/INFO]: juanwan11[local:E:25359553] logged in with entity id 324 at (10.560391550669086, 71.0, 252.02321553273313)
-[16:48:05] [Server thread/INFO]: juanwan11 joined the game
-[16:48:10] [Server thread/ERROR]: Encountered an unexpected exception
+[17:06:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:06:07] [Sound Library Loader/INFO]: Sound engine started
+[17:06:14] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:06:14] [Server thread/INFO]: Generating keypair
+[17:06:15] [Server thread/INFO]: Preparing start region for level 0
+[17:06:16] [Server thread/INFO]: Preparing spawn area: 48%
+[17:06:17] [Server thread/INFO]: juanwan11[local:E:42b4e732] logged in with entity id 326 at (16.602031442910018, 72.64513517169632, 260.6558068808521)
+[17:06:18] [Server thread/INFO]: juanwan11 joined the game
+[17:06:19] [Server thread/INFO]: Saving and pausing game...
+[17:06:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:06:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:06:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:06:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2108ms behind, skipping 42 tick(s)
+[17:06:21] [Server thread/ERROR]: Encountered an unexpected exception
 net.minecraft.util.ReportedException: Ticking memory connection
 	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:198) ~[NetworkSystem.class:?]
 	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:726) ~[MinecraftServer.class:?]
@@ -109,8 +114,8 @@ net.minecraft.util.ReportedException: Ticking memory connection
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485) [MinecraftServer.class:?]
 	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
 Caused by: java.lang.NullPointerException
-	at com.juanwan11_magicnation.Items.itemGemStoneBloodSword.changeType(itemGemStoneBloodSword.java:40) ~[itemGemStoneBloodSword.class:?]
-	at com.juanwan11_magicnation.Items.itemGemStoneBloodSword.onItemRightClick(itemGemStoneBloodSword.java:28) ~[itemGemStoneBloodSword.class:?]
+	at com.juanwan11_magicnation.Items.itemGemStoneBloodSword.changeType(itemGemStoneBloodSword.java:70) ~[itemGemStoneBloodSword.class:?]
+	at com.juanwan11_magicnation.Items.itemGemStoneBloodSword.onItemRightClick(itemGemStoneBloodSword.java:58) ~[itemGemStoneBloodSword.class:?]
 	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:164) ~[ItemStack.class:?]
 	at net.minecraft.server.management.ItemInWorldManager.tryUseItem(ItemInWorldManager.java:345) ~[ItemInWorldManager.class:?]
 	at net.minecraft.network.NetHandlerPlayServer.processPlayerBlockPlacement(NetHandlerPlayServer.java:576) ~[NetHandlerPlayServer.class:?]
@@ -119,17 +124,17 @@ Caused by: java.lang.NullPointerException
 	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:241) ~[NetworkManager.class:?]
 	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182) ~[NetworkSystem.class:?]
 	... 5 more
-[16:48:10] [Server thread/ERROR]: This crash report has been saved to: C:\Users\juanwan11\git\Magicnation-Mod\Magicnation-Mod\eclipse\.\crash-reports\crash-2014-11-30_16.48.10-server.txt
-[16:48:10] [Server thread/INFO]: Stopping server
-[16:48:10] [Server thread/INFO]: Saving players
-[16:48:10] [Server thread/INFO]: Saving worlds
-[16:48:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:48:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:48:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:48:12] [Client thread/FATAL]: Unreported exception thrown!
+[17:06:21] [Server thread/ERROR]: This crash report has been saved to: C:\Users\juanwan11\git\Magicnation-Mod\Magicnation-Mod\eclipse\.\crash-reports\crash-2014-11-30_17.06.21-server.txt
+[17:06:21] [Server thread/INFO]: Stopping server
+[17:06:21] [Server thread/INFO]: Saving players
+[17:06:21] [Server thread/INFO]: Saving worlds
+[17:06:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:06:22] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:06:22] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:06:23] [Client thread/FATAL]: Unreported exception thrown!
 java.lang.NullPointerException
-	at com.juanwan11_magicnation.Items.itemGemStoneBloodSword.changeType(itemGemStoneBloodSword.java:40) ~[itemGemStoneBloodSword.class:?]
-	at com.juanwan11_magicnation.Items.itemGemStoneBloodSword.onItemRightClick(itemGemStoneBloodSword.java:28) ~[itemGemStoneBloodSword.class:?]
+	at com.juanwan11_magicnation.Items.itemGemStoneBloodSword.changeType(itemGemStoneBloodSword.java:70) ~[itemGemStoneBloodSword.class:?]
+	at com.juanwan11_magicnation.Items.itemGemStoneBloodSword.onItemRightClick(itemGemStoneBloodSword.java:58) ~[itemGemStoneBloodSword.class:?]
 	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:164) ~[ItemStack.class:?]
 	at net.minecraft.client.multiplayer.PlayerControllerMP.sendUseItem(PlayerControllerMP.java:430) ~[PlayerControllerMP.class:?]
 	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1546) ~[Minecraft.class:?]

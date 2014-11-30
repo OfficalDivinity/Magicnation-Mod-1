@@ -67,11 +67,11 @@ public class itemGemStoneBloodSword extends ItemSword{
         
     private void changeType() {
     	ItemStack itemStack = new ItemStack(MAItems.itemGemStoneBloodSword);
-        if(itemStack.stackTagCompound.getString("Type").equals("Normal")) {
+        if(itemStack.stackTagCompound.getString("Type").equals("Normal") {
             itemStack.stackTagCompound = new NBTTagCompound();
             itemStack.stackTagCompound.setString("Type", "Poison");
         }
-        else if(itemStack.stackTagCompound.getString("Type").equals("Poison")) {
+        else if(itemStack.stackTagCompound.getString("Type").equals("Poison") {
             itemStack.stackTagCompound = new NBTTagCompound();
             itemStack.stackTagCompound.setString("Type", "Normal");
         }

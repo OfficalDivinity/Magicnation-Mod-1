@@ -18,7 +18,7 @@ public class itemGemStoneBloodSword extends ItemSword{
 		setMaxDamage(1561);
 	}
 	
-	/**@Override
+	@Override
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player) {
 		
 		if(itemStack.stackTagCompound == null) {
@@ -46,36 +46,6 @@ public class itemGemStoneBloodSword extends ItemSword{
         
         return itemStack;        
         }			
-	**/
-	@Override
-    public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player) {
-        
-        if(itemStack.stackTagCompound == null) {
-            itemStack.stackTagCompound = new NBTTagCompound();
-            itemStack.stackTagCompound.setString("Type", "Normal");
-        }
-        else if(itemStack.stackTagCompound != null) {
-            changeType();
-        }
-
-        if(!player.worldObj.isRemote){
-        Minecraft.getMinecraft().thePlayer.sendChatMessage(itemStack.stackTagCompound.getString("Type"));
-        }
-        
-        return itemStack;        
-    }
-        
-    private void changeType() {
-    	ItemStack itemStack = new ItemStack(MAItems.itemGemStoneBloodSword);
-        if(itemStack.stackTagCompound.getString("Type").equals("Normal")) {
-            itemStack.stackTagCompound = new NBTTagCompound();
-            itemStack.stackTagCompound.setString("Type", "Poison");
-        }
-        else if(itemStack.stackTagCompound.getString("Type").equals("Poison")) {
-            itemStack.stackTagCompound = new NBTTagCompound();
-            itemStack.stackTagCompound.setString("Type", "Normal");
-        }
-    }
 	
 	 public boolean hitEntity(ItemStack itemStack, EntityLivingBase entity, EntityLivingBase entity1)
 	    {

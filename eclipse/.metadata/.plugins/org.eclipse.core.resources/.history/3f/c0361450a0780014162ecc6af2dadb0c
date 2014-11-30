@@ -18,7 +18,7 @@ public class itemGemStoneBloodSword extends ItemSword{
 		setMaxDamage(1561);
 	}
 	
-	/**@Override
+	@Override
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player) {
 		
 		if(itemStack.stackTagCompound == null) {
@@ -27,15 +27,11 @@ public class itemGemStoneBloodSword extends ItemSword{
         }
         else if(itemStack.stackTagCompound != null) {
             if(itemStack.stackTagCompound.getString("Type").equals("Normal")) {
+                itemStack.stackTagCompound = new NBTTagCompound();
                 itemStack.stackTagCompound.setString("Type", "Poison");
             }
             else if(itemStack.stackTagCompound.getString("Type").equals("Poison")) {
-                itemStack.stackTagCompound.setString("Type", "Wither");
-            } 
-            else if(itemStack.stackTagCompound.getString("Type").equals("Wither")) {
-                itemStack.stackTagCompound.setString("Type", "LifeSteal");
-            }
-            else if(itemStack.stackTagCompound.getString("Type").equals("LifeSteal")) {
+                itemStack.stackTagCompound = new NBTTagCompound();
                 itemStack.stackTagCompound.setString("Type", "Normal");
             }
         }
@@ -45,54 +41,36 @@ public class itemGemStoneBloodSword extends ItemSword{
         }
         
         return itemStack;        
-        }			
-	**/
-	@Override
-    public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player) {
-        
-        if(itemStack.stackTagCompound == null) {
-            itemStack.stackTagCompound = new NBTTagCompound();
-            itemStack.stackTagCompound.setString("Type", "Normal");
-        }
-        else if(itemStack.stackTagCompound != null) {
-            changeType();
-        }
-
-        if(!player.worldObj.isRemote){
-        Minecraft.getMinecraft().thePlayer.sendChatMessage(itemStack.stackTagCompound.getString("Type"));
-        }
-        
-        return itemStack;        
-    }
-        
-    private void changeType() {
-    	ItemStack itemStack = new ItemStack(MAItems.itemGemStoneBloodSword);
-        if(itemStack.stackTagCompound.getString("Type").equals("Normal")) {
-            itemStack.stackTagCompound = new NBTTagCompound();
-            itemStack.stackTagCompound.setString("Type", "Poison");
-        }
-        else if(itemStack.stackTagCompound.getString("Type").equals("Poison")) {
-            itemStack.stackTagCompound = new NBTTagCompound();
-            itemStack.stackTagCompound.setString("Type", "Normal");
-        }
-    }
-	
-	 public boolean hitEntity(ItemStack itemStack, EntityLivingBase entity, EntityLivingBase entity1)
-	    {
+        }		
+		
+	private void changeType(){
+		ItemStack itemStack = new ItemStack(MAItems.itemGemStoneBloodSword);
+		if(itemStack.stackTagCompound != null){
 			
-			if(itemStack.stackTagCompound.getString("Type").equals("Normal")){
+		}else if(itemStack.stackTagCompound.getString("Type").equals("Normal")){
+			itemStack.stackTagCompound.setString("Type", "Poison");
+			Minecraft.getMinecraft().thePlayer.sendChatMessage(itemStack.stackTagCompound.getString("Type"));
+
+		}
+	
+	}
+	
+	/** public boolean hitEntity(ItemStack itemStack, EntityLivingBase entity, EntityLivingBase entity1)
+	    {
+			String type=checkType();
+			if(type.equals("Normal")){
 				itemStack.damageItem(1, entity1);
 			}
-			else if (itemStack.stackTagCompound.getString("Type").equals("Poison")){
+			else if (type.equals("Poison")){
 		        itemStack.damageItem(1, entity1);
 				entity.addPotionEffect(new PotionEffect(Potion.poison.id, 200,3));			
-			}else if(itemStack.stackTagCompound.getString("Type").equals("Wither")){
+			}else if(type.equals("Wither")){
 				 itemStack.damageItem(1, entity1);
 					entity.addPotionEffect(new PotionEffect(Potion.wither.id, 200,3));	
-			}else if(itemStack.stackTagCompound.getString("Type").equals("Hunger")){
+			}else if(type.equals("Hunger")){
 				 itemStack.damageItem(1, entity1);
 					entity.addPotionEffect(new PotionEffect(Potion.hunger.id, 200,3));	
-			}else if(itemStack.stackTagCompound.getString("Type").equals("LifeSteal")){
+			}else if(type.equals("LifeSteal")){
 				 itemStack.damageItem(1, entity1);
 					entity.addPotionEffect(new PotionEffect(Potion.poison.id, 140,1));	
 					entity1.addPotionEffect(new PotionEffect(Potion.regeneration.id, 140,1));	
@@ -100,4 +78,5 @@ public class itemGemStoneBloodSword extends ItemSword{
 	       
 				return true;
 	    }
+**/
 }
