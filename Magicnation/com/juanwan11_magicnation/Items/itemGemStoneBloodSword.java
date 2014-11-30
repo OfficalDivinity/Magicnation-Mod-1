@@ -12,49 +12,22 @@ import net.minecraft.world.World;
 
 public class itemGemStoneBloodSword extends ItemSword{
 //vars
-
+	
 	public itemGemStoneBloodSword(ToolMaterial toolMaterial) {
 		super(toolMaterial.EMERALD);
 		setMaxDamage(1561);
 	}
 	
-	public void onCreated(ItemStack itemStack, World world, EntityPlayer player) {
-	    itemStack.stackTagCompound = new NBTTagCompound();
-	    itemStack.stackTagCompound.setString("type", "Normal");
-	}
-	
-	private String checkType(){
-		ItemStack itemStack = new ItemStack(MAItems.itemGemStoneBloodSword);
-		
-		String type =itemStack.stackTagCompound.getString("type");
-		switch(type){
-		case "Poison":
-			itemStack.stackTagCompound.setString("type", "Wither");
-			Minecraft.getMinecraft().thePlayer.sendChatMessage("The sword has gained poisones powers ");
-			break;
-		case "Wither":
-			itemStack.stackTagCompound.setString("type", "Hunger");
-			break;
-		case "Hunger":
-			itemStack.stackTagCompound.setString("type", "LifeSteal");
-			break;
-		case "LifeSteal":
-			itemStack.stackTagCompound.setString("type", "Normal");
-			break;
-		case "Normal":
-			itemStack.stackTagCompound.setString("type", "Poison");
-			break;
-		}
-		return type;
-	}
-	
 	@Override
-	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player) {		
-		checkType();
-		return itemStack;
+	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player) {
+		itemStack.stackTagCompound= new NBTTagCompound();
+		itemStack.stackTagCompound.setString("Type", "normal");
+		Minecraft.getMinecraft().thePlayer.sendChatMessage(itemStack.stackTagCompound.getString("Type"));
+		
+		return itemStack;		
 		}		
 		
-	 public boolean hitEntity(ItemStack itemStack, EntityLivingBase entity, EntityLivingBase entity1)
+	/** public boolean hitEntity(ItemStack itemStack, EntityLivingBase entity, EntityLivingBase entity1)
 	    {
 			String type=checkType();
 			if(type.equals("Normal")){
@@ -77,5 +50,5 @@ public class itemGemStoneBloodSword extends ItemSword{
 	       
 				return true;
 	    }
-
+**/
 }
