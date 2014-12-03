@@ -138,7 +138,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_36qf0HicEeSeadgmvTEGRA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="itemGemStoneBloodSword.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;itemGemStoneBloodSword.java&quot; partName=&quot;itemGemStoneBloodSword.java&quot; title=&quot;itemGemStoneBloodSword.java&quot; tooltip=&quot;Minecraft/Magicnation/com/juanwan11_magicnation/Items/itemGemStoneBloodSword.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Minecraft/Magicnation/com/juanwan11_magicnation/Items/itemGemStoneBloodSword.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2586&quot; selectionTopPixel=&quot;495&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;itemGemStoneBloodSword.java&quot; partName=&quot;itemGemStoneBloodSword.java&quot; title=&quot;itemGemStoneBloodSword.java&quot; tooltip=&quot;Minecraft/Magicnation/com/juanwan11_magicnation/Items/itemGemStoneBloodSword.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Minecraft/Magicnation/com/juanwan11_magicnation/Items/itemGemStoneBloodSword.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2586&quot; selectionTopPixel=&quot;705&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -294,7 +294,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2uCuA23QEeSgO7zgLOre3g" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_DRZ7UHseEeSl049revfcVQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_2uD8-23QEeSgO7zgLOre3g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_hKgqUHskEeSC7tTPM1n8AA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_2uD8-23QEeSgO7zgLOre3g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2uCuEG3QEeSgO7zgLOre3g" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -318,7 +318,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2uCuNW3QEeSgO7zgLOre3g" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_DRpy8HseEeSl049revfcVQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_2uD8gW3QEeSgO7zgLOre3g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_hKomIHskEeSC7tTPM1n8AA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_2uD8gW3QEeSgO7zgLOre3g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2uCuQW3QEeSgO7zgLOre3g" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
