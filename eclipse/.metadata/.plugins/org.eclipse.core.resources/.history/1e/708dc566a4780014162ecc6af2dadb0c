@@ -25,7 +25,7 @@ public class itemGemStoneBloodSword extends ItemSword{
             itemStack.stackTagCompound = new NBTTagCompound();
             itemStack.stackTagCompound.setString("Type", "Normal");
         }
-			else if(itemStack.stackTagCompound != null) {
+        else if(itemStack.stackTagCompound != null) {
             if(itemStack.stackTagCompound.getString("Type").equals("Normal")) {
                 itemStack.stackTagCompound.setString("Type", "Poison");
             }
