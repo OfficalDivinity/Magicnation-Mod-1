@@ -14,6 +14,9 @@ public class CraftingRecipies implements CraftingRecipesStacks {
 	
 
 	public static void CraftingRecipe(){
+		Item BrassIngot = GameRegistry.findItem("Steamcraft", "ingotBrass");
+		Item EncrustedDiamond = GameRegistry.findItem("erebus", "encrustedDiamond");
+		Item BrassIngot = GameRegistry.findItem("", "");
 		
 		GameRegistry.addRecipe(gemBloodStack, "xyx",	"yzy", "xyx", 'x', shardGemBloodStack, 'y', goldNuggetStack,'z', diamondStack);
 		GameRegistry.addRecipe(bloodstonePickaxe,"dsd"," g "," g ",'d',diamondStack,'s',gemBloodStack,'g',goldIngotStack);
