@@ -5,8 +5,6 @@ import net.minecraft.item.ItemStack;
 
 import com.juanwan11_magicnation.Items.MAItems;
 
-import cpw.mods.fml.common.registry.GameRegistry;
-
 public interface CraftingRecipesStacks {
 	ItemStack diamondStack = new ItemStack(Items.diamond);
 	ItemStack goldNuggetStack = new ItemStack(Items.gold_nugget);
@@ -14,5 +12,4 @@ public interface CraftingRecipesStacks {
 	ItemStack shardGemBloodStack = new ItemStack(MAItems.itemShardGemBlood);
 	ItemStack bloodstonePickaxe = new ItemStack(MAItems.itemGemStoneBloodPickaxe);
 	ItemStack gemBloodStack = new ItemStack(MAItems.itemGemStoneBlood);
-	
 }
