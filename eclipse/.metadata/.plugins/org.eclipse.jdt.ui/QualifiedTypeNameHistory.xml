@@ -23,4 +23,5 @@
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.Items.MAItems"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
