@@ -22,9 +22,9 @@ public class WorldGenStarterStructure extends WorldGenerator {
         	for (int g = 0; g < 10; g++) {
         		for (int a = 0; a <= 10; a++) {
 
-					 blockx = blockx+i;
-					 blocky = blocky+a;
-					 blockz = blockz+g;
+					int blockx = blockx+i;
+					int blocky = blocky+a;
+					int blockz = blockz+g;
 
 					if (a != 10 && a != 0) {
 						if ((i >= 0 && g == 0) || (i >= 0 && g == 9) || (i == 0 && g >= 0) || (i == 9 && g >= 0))
