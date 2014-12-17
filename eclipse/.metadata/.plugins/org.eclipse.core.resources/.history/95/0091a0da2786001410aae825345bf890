@@ -8,7 +8,6 @@ import com.juanwan11_magicnation.structures.WorldGenStarterStructure;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldSavedData;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import cpw.mods.fml.common.IWorldGenerator;
@@ -37,12 +36,9 @@ public class MagicnationGenerator implements IWorldGenerator{
 	
 	
 	if(world.loadItemData(MagicnationWorldSaveData.class, "alreadyStarterStructer") == null){
-		WorldSavedData data = new MagicnationWorldSaveData("alreadyStarterStructure");
+		WorldSavedData data new MagicnationWorldSaveData("alreadyStarterStructure");
 		world.setItemData("alreadyStarterStructure", data);
-		data.markDirty();
 	}
-	MagicnationWorldSaveData worldSaveData = (MagicnationWorldSaveData) world.loadItemData(MagicnationWorldSaveData.class, "alreadyStarterStructure");
-	
 	  (new WorldGenStarterStructure()).generate(world, random, 0, 150, 0);
 	
 	}

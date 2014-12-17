@@ -39,7 +39,6 @@ public class MagicnationGenerator implements IWorldGenerator{
 	if(world.loadItemData(MagicnationWorldSaveData.class, "alreadyStarterStructer") == null){
 		WorldSavedData data = new MagicnationWorldSaveData("alreadyStarterStructure");
 		world.setItemData("alreadyStarterStructure", data);
-		data.markDirty();
 	}
 	MagicnationWorldSaveData worldSaveData = (MagicnationWorldSaveData) world.loadItemData(MagicnationWorldSaveData.class, "alreadyStarterStructure");
 	

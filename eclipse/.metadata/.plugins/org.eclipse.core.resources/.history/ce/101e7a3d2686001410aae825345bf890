@@ -6,12 +6,13 @@ import net.minecraft.world.storage.MapStorage;
 
 public class MagicnationWorldSaveData extends WorldSavedData {
 
+	private NBTTagCompound data = new NBTTagCompound();
 	
 	public static boolean alreadyStarterStructure = false;
 	
 	
-	public MagicnationWorldSaveData(String tagName) {
-		super(tagName);
+	public MagicnationWorldSaveData(String par1Str) {
+		super(par1Str);
 	}
 
 	@Override
@@ -23,8 +24,6 @@ public class MagicnationWorldSaveData extends WorldSavedData {
 	@Override
 	public void writeToNBT(NBTTagCompound nbt) {
 		
-		nbt.setBoolean("alreadyStarterStructure", false);
-
 	}
 
 }
