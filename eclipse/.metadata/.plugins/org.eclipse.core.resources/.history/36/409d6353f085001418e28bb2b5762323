@@ -3,6 +3,7 @@ package com.juanwan11_magicnation;
 import java.util.Random;
 
 import com.juanwan11_magicnation.blocks.MABlocks;
+import com.juanwan11_magicnation.structures.WorldGenStarterStructure;
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -11,7 +12,7 @@ import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import cpw.mods.fml.common.IWorldGenerator;
 
-public class OreMagicnationGenerator implements IWorldGenerator{
+public class MagicnationGenerator implements IWorldGenerator{
 
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider){
@@ -32,6 +33,9 @@ public class OreMagicnationGenerator implements IWorldGenerator{
 	private void generateSurface(World world, Random random, int x, int z)
 	{																//maxX maxZ maxVienSize chancesToSpawn minY maxY
 	this.addOreSpawn(MABlocks.oreGemStoneBlood,Blocks.stone,  world, random, x, z, 16, 16, 2 + random.nextInt(3), 5, 17, 73);
+	
+	  (new WorldGenStarterStructure()).generate(world, random, 0, 150, 0);
+	
 	}
 	 
 	private void generateNether(World world, Random random, int x, int z)
