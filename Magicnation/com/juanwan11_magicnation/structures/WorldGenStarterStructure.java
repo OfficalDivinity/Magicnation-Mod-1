@@ -22,11 +22,11 @@ public class WorldGenStarterStructure extends WorldGenerator {
                 for (int a = 0; a <= 10; a++) {
                     
                 	int blockx = x+i;
-                    int blockz = z+g;
                 	int blocky = y+a;
+                	int blockz = z+g;
                     
-                	if (a != 10 && a!=0) {
-                        if ((i >= 0 && g == 0) || (i >= 0 && g == 10) ||(i == 0 && g >= 0) || (i == 10 && g >= 0))
+                	if (a != 10 && a != 0) {
+                		if ((i >= 0 && g == 0) || (i >= 0 && g == 10) || (i == 0 && g >= 0) || (i == 10 && g >= 0))
                         	world.setBlock(blockx, blocky, blockz, Blocks.stonebrick);      
                     } else {
                     	world.setBlock(blockx, blocky, blockz, Blocks.stonebrick);
