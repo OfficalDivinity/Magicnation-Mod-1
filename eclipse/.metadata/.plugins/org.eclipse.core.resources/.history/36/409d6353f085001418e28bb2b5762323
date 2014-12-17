@@ -34,7 +34,7 @@ public class MagicnationGenerator implements IWorldGenerator{
 	{																//maxX maxZ maxVienSize chancesToSpawn minY maxY
 	this.addOreSpawn(MABlocks.oreGemStoneBlood,Blocks.stone,  world, random, x, z, 16, 16, 2 + random.nextInt(3), 5, 17, 73);
 	
-	  (new WorldGenStarterStructure()).generate(world, random, 0, 70, 0);
+	  (new WorldGenStarterStructure()).generate(world, random, 0, 150, 0);
 	
 	}
 	 
