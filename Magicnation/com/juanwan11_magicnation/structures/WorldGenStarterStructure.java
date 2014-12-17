@@ -19,8 +19,8 @@ public class WorldGenStarterStructure extends WorldGenerator {
 		world.setSpawnLocation(x, y, z);
 
 		for (int i = 0; i < 10; i++) {
-        	for (int g = 0; g < 10; g++) {
-        		for (int a = 0; a <= 10; a++) {
+        		for (int g = 0; g < 10; g++) {
+        			for (int a = 0; a <= 10; a++) {
 
 					 blockx = blockx+i;
 					 blocky = blocky+a;
