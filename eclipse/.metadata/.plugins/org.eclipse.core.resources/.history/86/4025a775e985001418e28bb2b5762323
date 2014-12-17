@@ -1,0 +1,34 @@
+package com.juanwan11_magicnation.structures;
+
+import java.util.Random;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.world.World;
+import net.minecraft.world.gen.feature.WorldGenerator;
+
+public class WorldGenStarterStructure extends WorldGenerator {
+
+	
+    public boolean generate(World world, Random random, int x, int y, int z)
+    {
+        while (world.isAirBlock(x, y, z) && y > 2)
+        {
+            --y;
+        }
+        world.setSpawnLocation(x, y, z);
+        
+        for(int a=0;a<10;a++)
+        	for(int i=0;i<10;i++){
+        		for(int g=0;g<10;g++)
+        			world.setBlock(x+i, y+a, z+g, Blocks.stonebrick);
+        	}
+         for(int a=0;a<10;a++)
+      	     for(int i=0;i<10;i++){
+        	     for(int g=0;g<10;g++)
+        	        world.setBlock(x+1+i, y+a, z+1+g, air);		
+    	   
+       
+        
+        return true;
+    }
+}

@@ -40,7 +40,7 @@ public class BaseClass {
 		MAItems.makeItems();
 		MAItems.registerItems();
 		CraftingRecipies.CraftingRecipe();
-		GameRegistry.registerWorldGenerator(new OreMagicnationGenerator(), 1);
+		GameRegistry.registerWorldGenerator(new MagicnationGenerator(), 1);
 
 		//Mods Loaded
 		modLoader.isModsLoaded();
