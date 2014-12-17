@@ -36,7 +36,7 @@ public class MagicnationGenerator implements IWorldGenerator{
 	this.addOreSpawn(MABlocks.oreGemStoneBlood,Blocks.stone,  world, random, x, z, 16, 16, 2 + random.nextInt(3), 5, 17, 73);
 	
 	
-	if(world.loadItemData(MagicnationWorldSaveData.class, "alreadyStarterStructer") == null){
+	if(world.loadItemData(MagicnationWorldSaveData.class, "alreadyStarterStructure") == null){
 		WorldSavedData data = new MagicnationWorldSaveData("alreadyStarterStructure");
 		world.setItemData("alreadyStarterStructure", data);
 		data.markDirty();
