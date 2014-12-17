@@ -30,7 +30,7 @@ public class WorldGenStarterStructure extends WorldGenerator {
 			};
 		for (int i = 0; i < coords.length; i=+3) {
 			world.setBlock(blockx + coords[i], blocky + coords[i+1], blockz + coords[i+2], Blocks.stonebrick);
-			}
+		}
 		
 		return true;
 	}

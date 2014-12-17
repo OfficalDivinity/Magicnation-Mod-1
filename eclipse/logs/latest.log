@@ -1,8 +1,8 @@
-[19:10:02] [main/INFO]: Setting user: juanwan11
-[19:10:04] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:10:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[19:10:12] [Sound Library Loader/INFO]: Sound engine started
-[19:10:14] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+[21:16:17] [main/INFO]: Setting user: juanwan11
+[21:16:19] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:16:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[21:16:26] [Sound Library Loader/INFO]: Sound engine started
+[21:16:29] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -22,8 +22,8 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGe
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:10:15] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[19:10:15] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+[21:16:29] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[21:16:29] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -43,9 +43,9 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStone
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:10:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:10:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[19:10:15] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+[21:16:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:16:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[21:16:30] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -68,8 +68,8 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGe
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:10:15] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[19:10:15] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+[21:16:30] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[21:16:30] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -92,43 +92,13 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStone
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:10:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:10:16] [Sound Library Loader/INFO]: Sound engine started
-[19:10:25] [Client thread/INFO]: Deleting level Copy of New World
-[19:10:25] [Client thread/INFO]: Attempt 1...
-[19:10:27] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:10:27] [Server thread/INFO]: Generating keypair
-[19:10:27] [Server thread/INFO]: Converting map!
-[19:10:27] [Server thread/INFO]: Scanning folders...
-[19:10:27] [Server thread/INFO]: Total conversion count is 0
-[19:10:28] [Server thread/INFO]: Preparing start region for level 0
-[19:10:29] [Server thread/INFO]: Preparing spawn area: 7%
-[19:10:30] [Server thread/INFO]: Preparing spawn area: 18%
-[19:10:31] [Server thread/INFO]: Preparing spawn area: 31%
-[19:10:32] [Server thread/INFO]: Preparing spawn area: 46%
-[19:10:33] [Server thread/INFO]: Preparing spawn area: 61%
-[19:10:34] [Server thread/INFO]: Preparing spawn area: 77%
-[19:10:35] [Server thread/INFO]: Preparing spawn area: 92%
-[19:10:37] [Server thread/INFO]: juanwan11[local:E:65c6704f] logged in with entity id 256 at (-2.5, 59.0, -0.5)
-[19:10:37] [Server thread/INFO]: juanwan11 joined the game
-[19:10:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8716ms behind, skipping 174 tick(s)
-[19:10:52] [Server thread/INFO]: juanwan11 has just earned the achievement [Taking Inventory]
-[19:10:52] [Client thread/INFO]: [CHAT] juanwan11 has just earned the achievement [Taking Inventory]
-[19:10:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 293 ms
-[19:10:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4575ms behind, skipping 91 tick(s)
-[19:10:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 139 ms
-[19:10:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 152 ms
-[19:10:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 112 ms
-[19:11:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 158 ms
-[19:11:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 156 ms
-[19:14:35] [Server thread/INFO]: Saving and pausing game...
-[19:14:35] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
-[19:14:35] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
-[19:14:35] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
-[19:14:36] [Server thread/INFO]: Stopping server
-[19:14:36] [Server thread/INFO]: Saving players
-[19:14:36] [Server thread/INFO]: Saving worlds
-[19:14:36] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
-[19:14:36] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
-[19:14:36] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
-[19:14:37] [Client thread/INFO]: Stopping!
+[21:16:30] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:16:31] [Sound Library Loader/INFO]: Sound engine started
+[21:16:36] [Client thread/INFO]: Deleting level Copy of New World
+[21:16:36] [Client thread/INFO]: Attempt 1...
+[21:16:38] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:16:38] [Server thread/INFO]: Generating keypair
+[21:16:38] [Server thread/INFO]: Converting map!
+[21:16:38] [Server thread/INFO]: Scanning folders...
+[21:16:38] [Server thread/INFO]: Total conversion count is 0
+[21:16:39] [Server thread/INFO]: Preparing start region for level 0
