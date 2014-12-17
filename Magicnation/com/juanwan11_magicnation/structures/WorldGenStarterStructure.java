@@ -17,12 +17,9 @@ public class WorldGenStarterStructure extends WorldGenerator {
 		world.setSpawnLocation(blockx, blocky, blockz);
 
 		//Array list containing x,y,z multiples
-		int[] coords = {0,0,0,1,0,0,2,0,0};
+		int[] coords = {0,0,0,0,0,0,0,0,0};
 		for (int i = 0; i < coords.length/3; i=+3) {
-			int x = blockx+coords[i];
-			int y = blocky+coords[i+1];
-			int z = blockz+coords[i+2];
-			world.setBlock(x, y, z, Blocks.stonebrick);
+			world.setBlock(blockx + coords[i], blocky + coords[i+1], blockz + coords[i+2], Blocks.stonebrick);
 		}
 		
 		return true;
