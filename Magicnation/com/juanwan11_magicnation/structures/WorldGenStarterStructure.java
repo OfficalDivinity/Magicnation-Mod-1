@@ -8,16 +8,16 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 
 public class WorldGenStarterStructure extends WorldGenerator {
 
-	public boolean generate(World world, Random random, int x, int y, int z) {
+	public boolean generate(World world, Random random, int blockx, int blocky, int blockz) {
 
-		while (world.isAirBlock(x, y, z) && y > 2) {
-			--y;
+		while (world.isAirBlock(blockx, blocky, blockz) && blocky > 2) {
+			--blocky;
 		}
 
-		world.setSpawnLocation(x, y, z);
+		world.setSpawnLocation(blockx, blocky, blockz);
 
 		//Array list containing x,y,z multiples
-		int[] coords = {0,0,0,1,0,0,2,0,0}
+		int[] coords = {0,0,0,1,0,0,2,0,0};
 		for (int i = 0; i < coords.length/3; i=+3) {
 			int x = coords[i];
 			int y = coords[i+1];
