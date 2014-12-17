@@ -1437,9 +1437,3 @@ java.lang.OutOfMemoryError: Requested array size exceeds VM limit
 	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:644)
 	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:388)
 	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY de.fu_berlin.inf.dpp 2 0 2014-12-17 22:26:17.966
-!MESSAGE unexpected method call (NullSarosSession.java:64)
-
-!ENTRY de.fu_berlin.inf.dpp 2 0 2014-12-17 22:26:17.968
-!MESSAGE unexpected method call (NullSarosSession.java:64)
