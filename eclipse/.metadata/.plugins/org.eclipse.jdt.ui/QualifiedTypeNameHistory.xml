@@ -8,7 +8,6 @@
 <fullyQualifiedTypeName name="com.magicnation.blocks.MABlocks"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Loader"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.Items.botania.MABotaniaItems"/>
-<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.CraftingRecipies"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.CraftingRecipesStacks"/>
@@ -23,4 +22,5 @@
 <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.Items.MAItems"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
 </qualifiedTypeNameHistroy>

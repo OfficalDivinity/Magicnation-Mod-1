@@ -10,15 +10,16 @@ public class WorldGenStarterStructure extends WorldGenerator {
 
 	int blockx,blocky,blockz=0;
 	
-	public boolean generate(World world, Random random, int x, int y, int z) {
+	public boolean generate(World world, Random random, int blockx, int blocky, int blockz) {
 
-		while (world.isAirBlock(x, y, z) && y > 2) {
-			--y;
+		while (world.isAirBlock(blockx, blocky, blockz) && blocky > 2) {
+			--blocky;
 		}
 
-		world.setSpawnLocation(x, y, z);
+		world.setSpawnLocation(blockx, blocky, blockz);
 
-		for (int i = 0; i < 10; i++) {
+		world.setBlock(blockx, blocky, blockz, Blocks.diamond_block);
+	/**	for (int i = 0; i < 10; i++) {
         		for (int g = 0; g < 10; g++) {
         			for (int a = 0; a <= 10; a++) {
 
@@ -34,7 +35,7 @@ public class WorldGenStarterStructure extends WorldGenerator {
 					}
 				}
 			}
-		}
+		}**/
 		return true;
 	}
 }
