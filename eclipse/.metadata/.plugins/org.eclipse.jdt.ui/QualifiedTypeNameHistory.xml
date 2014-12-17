@@ -24,4 +24,6 @@
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.Items.MAItems"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="net.minecraft.world.WorldSavedData"/>
+<fullyQualifiedTypeName name="com.juanwan11_magicnation.MagicnationWorldSaveData"/>
 </qualifiedTypeNameHistroy>

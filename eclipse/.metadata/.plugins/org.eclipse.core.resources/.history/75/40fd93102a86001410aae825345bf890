@@ -17,14 +17,13 @@ public class MagicnationWorldSaveData extends WorldSavedData {
 	@Override
 	public void readFromNBT(NBTTagCompound nbt) {
 		
-		nbt.getBoolean("alreadyStarterStructure");
 		
 	}
 
 	@Override
 	public void writeToNBT(NBTTagCompound nbt) {
 		
-		nbt.setBoolean("alreadyStarterStructure", true);
+		nbt.setBoolean("alreadyStarterStructure", false);
 
 	}
 

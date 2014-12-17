@@ -17,7 +17,6 @@ public class MagicnationWorldSaveData extends WorldSavedData {
 	@Override
 	public void readFromNBT(NBTTagCompound nbt) {
 		
-		nbt.getBoolean("alreadyStarterStructure");
 		
 	}
 

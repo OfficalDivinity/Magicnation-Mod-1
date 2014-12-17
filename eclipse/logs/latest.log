@@ -1,8 +1,8 @@
-[21:16:17] [main/INFO]: Setting user: juanwan11
-[21:16:19] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:16:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[21:16:26] [Sound Library Loader/INFO]: Sound engine started
-[21:16:29] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+[22:20:33] [main/INFO]: Setting user: juanwan11
+[22:20:35] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:20:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[22:20:42] [Sound Library Loader/INFO]: Sound engine started
+[22:20:44] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -22,8 +22,8 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGe
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[21:16:29] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[21:16:29] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+[22:20:45] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[22:20:45] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -43,9 +43,9 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStone
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[21:16:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:16:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[21:16:30] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+[22:20:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:20:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[22:20:45] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -68,8 +68,8 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGe
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[21:16:30] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[21:16:30] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+[22:20:45] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[22:20:45] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -92,13 +92,13 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStone
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[21:16:30] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:16:31] [Sound Library Loader/INFO]: Sound engine started
-[21:16:36] [Client thread/INFO]: Deleting level Copy of New World
-[21:16:36] [Client thread/INFO]: Attempt 1...
-[21:16:38] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:16:38] [Server thread/INFO]: Generating keypair
-[21:16:38] [Server thread/INFO]: Converting map!
-[21:16:38] [Server thread/INFO]: Scanning folders...
-[21:16:38] [Server thread/INFO]: Total conversion count is 0
-[21:16:39] [Server thread/INFO]: Preparing start region for level 0
+[22:20:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:20:46] [Sound Library Loader/INFO]: Sound engine started
+[22:20:54] [Client thread/INFO]: Deleting level Copy of New World
+[22:20:54] [Client thread/INFO]: Attempt 1...
+[22:20:57] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:20:57] [Server thread/INFO]: Generating keypair
+[22:20:57] [Server thread/INFO]: Converting map!
+[22:20:57] [Server thread/INFO]: Scanning folders...
+[22:20:57] [Server thread/INFO]: Total conversion count is 0
+[22:20:58] [Server thread/INFO]: Preparing start region for level 0
