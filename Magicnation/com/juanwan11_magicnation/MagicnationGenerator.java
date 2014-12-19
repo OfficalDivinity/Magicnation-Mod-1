@@ -24,8 +24,43 @@ public class MagicnationGenerator implements IWorldGenerator{
 				generateSurface(world, random, chunkX * 16, chunkZ * 16);
 			case 1:
 				generateEnd(world, random, chunkX * 16, chunkZ * 16);
+		box(world,0,80,0,9,9,9);
+
 	}
 }
+
+//---------------------------------------------------------------------------------------------------------------
+	public void box(World world,int posx, int posy, int posz,int x, int y, int z) {
+		
+		int j,k;
+	
+		//build walls 
+		for(j=0;j<x;j++)
+			for(k=0;k<y;k++){
+				world.setBlock(posx +j,posy +k,posz, Blocks.stonebrick);
+				if(j==1)continue;
+				world.setBlock(posx +j,posy +k,posz +z, Blocks.stonebrick);
+			}
+
+		for(j=1;j<y;j++)
+			for(k=0;k<y;k++){
+				world.setBlock(posx,posy +j,posz +k, Blocks.stonebrick);
+				if(j==(y-1))continue;
+				world.setBlock(posx +x,posy +j,posy +k, Blocks.stonebrick);
+			}
+		
+		for(j=1;j<z-1;j++)
+			for(k=1;k<x-1;k++){
+				world.setBlock(posx, posy,posz +z, Blocks.stonebrick);
+				world.setBlock(posy +k,posy +y,posy +z, Blocks.stonebrick);
+			}
+		
+		
+		
+		
+	}
+//---------------------------------------------------------------------------------------------------------------
+
 	private void generateEnd(World world, Random random, int x, int z)
 	{
 	 
