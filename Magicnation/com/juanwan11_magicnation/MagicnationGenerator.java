@@ -46,13 +46,13 @@ public class MagicnationGenerator implements IWorldGenerator{
 			for(k=0;k<y;k++){
 				world.setBlock(posx,posy +j,posz +k, Blocks.stonebrick);
 				if(j==(y-1))continue;
-				world.setBlock(posx +x,posy +j,posy +k, Blocks.stonebrick);
+				world.setBlock(posx +x,posy +j,posz +k, Blocks.stonebrick);
 			}
 		
 		for(j=1;j<z-1;j++)
 			for(k=1;k<x-1;k++){
 				world.setBlock(posx, posy,posz +z, Blocks.stonebrick);
-				world.setBlock(posy +k,posy +y,posy +z, Blocks.stonebrick);
+				world.setBlock(posx +k,posy +y,posz +z, Blocks.stonebrick);
 			}
 		
 		
