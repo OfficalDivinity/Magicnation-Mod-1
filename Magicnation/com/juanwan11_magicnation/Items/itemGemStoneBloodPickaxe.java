@@ -60,4 +60,22 @@ public class itemGemStoneBloodPickaxe extends ItemPickaxe {
 
             return false;
         }
+        @Override
+	public boolean onBlockStartBreak(ItemStack stack, int x, int y, int z, EntityPlayer player) {
+	Block block = world.getBlock(x, y, z);
+        int meta = world.getBlockMetadata(x, y, z);
+	if (ForgeHooks.isToolEffective(stack, block, meta)){
+            return true;
+            	Block block = world.getBlock(x, y-2, z);
+        if (ForgeHooks.isToolEffective(stack, block, meta)){
+            return true;
+	}
+		Block block = world.getBlock(x, y+1, z);
+        if (ForgeHooks.isToolEffective(stack, block, meta)){
+            return true;
+	}
+	
+	}
+
+	}
 }
