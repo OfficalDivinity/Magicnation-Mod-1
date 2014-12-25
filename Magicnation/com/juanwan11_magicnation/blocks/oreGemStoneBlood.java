@@ -18,6 +18,16 @@ public class oreGemStoneBlood extends Block {
 		super(Material.rock);
 
 	}
+	
+	    @Override
+	@SideOnly(Side.CLIENT)
+	public void registerBlockIcons(IIconRegister iconRegister)
+	{
+		Overworld = iconRegister.registerIcon("magicnation:oreGemStoneBlood_ore");
+		End = iconRegister.registerIcon("magicnation:oreGemStoneBlood_end");
+		Nether = iconRegister.registerIcon("magicnation:oreGemStoneBlood_nether");
+	}
+	
 	public int getExpDrop(IBlockAccess world, int metadata, int fortune) {
 		return (int) 5;
 	}
@@ -31,6 +41,20 @@ public class oreGemStoneBlood extends Block {
 	    {
 	        return 1;
 	    }
+	    
+	@Override
+	@SideOnly(Side.CLIENT)
+	public IIcon getIcon(int side, int meta)
+	{
+		int dim = Minecraft.getMinecraft().theWorld.provider.dimensionId;
+
+		if (dim == -1)
+			return Nether;
+		else if (dim == 1)
+			return End;
+		else
+			return Overworld;
+	}
 
 	    public int quantityDroppedWithBonus(int fortune, Random random)
 	    {
