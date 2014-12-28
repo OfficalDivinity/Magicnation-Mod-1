@@ -29,6 +29,12 @@ public class gemStoneBloodBlock extends Block implements IInfusionStabiliser
 			
 			return true;
 		}
+		
+		  @Override
+    public boolean isBeaconBase(IBlockAccess worldObj, int x, int y, int z, int beaconX, int beaconY, int beaconZ) {
+
+        return true;
+    }
         
 
 }
