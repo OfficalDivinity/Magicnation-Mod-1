@@ -1,0 +1,17 @@
+package com.juanwan11_magicnation.structures;
+
+import net.minecraft.block.Block;
+import net.minecraft.world.World;
+
+public class WorldGenPyramidStructure {
+
+	public static void pyramid(World world,int posx,int posy,int posz,Block blockType, int size){
+		
+		int j,k,tempx=posx,tempy=posy,tempz=posz;
+
+		
+	}
+	
+	
+	
+}

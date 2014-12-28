@@ -4,5 +4,7 @@ tile.juanwan11_magicnation_oreNetherGemStoneBlood.name=NetherBloodGem Ore
 item.juanwan11_magicnation_itemShardGemBlood.name=BloodGem Shard
 item.juanwan11_magicnation_itemGemStoneBlood.name=BloodGemStone
 item.juanwan11_magicnation_itemGemStoneBloodPickaxe.name=BloodGem Pickaxe
+item.juanwan11_magicnation_itemPyramidGen.name=Test Pyramid
+
 
 itemGroup.juanwan11_magicnationTab=Magicnation

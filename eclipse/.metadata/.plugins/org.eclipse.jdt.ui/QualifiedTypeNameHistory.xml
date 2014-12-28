@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="com.magicnation.InformationAndShortCuts"/>
 <fullyQualifiedTypeName name="com.magicnation.items.MAItems"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="com.magicnation.blocks.MABlocks"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Loader"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.Items.botania.MABotaniaItems"/>
@@ -14,14 +13,17 @@
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.botania.CraftingRecipes"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.thaumcraft.CraftingRecipes"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.recipies.thaumcraft.ThaumcraftCraftingRecipes"/>
-<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
 <fullyQualifiedTypeName name="net.minecraft.potion.Potion"/>
 <fullyQualifiedTypeName name="net.minecraft.potion.PotionEffect"/>
 <fullyQualifiedTypeName name="net.minecraft.nbt.NBTTagCompound"/>
 <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
-<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="com.juanwan11_magicnation.Items.MAItems"/>
-<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.world.World"/>
+<fullyQualifiedTypeName name="com.juanwan11_magicnation.structures.WorldGenPyramidStructure"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
 </qualifiedTypeNameHistroy>
